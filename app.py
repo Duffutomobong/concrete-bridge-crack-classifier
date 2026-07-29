@@ -84,7 +84,7 @@ def main():
             st.caption(f"Raw model output (P(cracked) = {prob_cracked:.3f})")
 
         st.info(
-            "\u26A0\ufe0f This tool supports visual inspection but does not replace "
+            "\u26A0\uFE0F This tool supports visual inspection but does not replace "
             "professional structural assessment of bridge decks."
         )
     else:
@@ -93,6 +93,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-from google.colab import files
-files.download('app.py')

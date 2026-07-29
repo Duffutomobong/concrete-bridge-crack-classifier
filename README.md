@@ -55,32 +55,6 @@ Then open the local URL Streamlit prints (usually http://localhost:8501).
 Deployed on **Streamlit Community Cloud**: `https://<your-app-name>.streamlit.app`
 (replace with your actual deployed URL before submission).
 
- Git, GitHub, and Streamlit Cloud deployment (CLO7)
-Run these commands on your local machine or in a terminal (not required to execute inside Colab) after downloading app.py, requirements.txt, the model/ folder, and this notebook.
-
-11.1 Recommended repository structure
-concrete-crack-detector/
-├── app.py
-├── requirements.txt
-├── README.md
-├── model/
-│   └── crack_detector.keras
-└── notebooks/
-    └── GET324_Crack_Detection_MiniProject.ipynb
-11.2 Initialise Git and push to GitHub
-git init
-git add .
-git commit -m "Initial commit: concrete crack detection app"
-git branch -M main
-git remote add origin https://github.com/<your-username>/concrete-crack-detector.git
-git push -u origin main
-11.3 Deploy on Streamlit Community Cloud
-Go to https://share.streamlit.io and sign in with GitHub.
-Click New app, choose your repository, branch main, and main file path app.py.
-Click Deploy. Streamlit installs requirements.txt and starts the app automatically.
-Copy the generated public URL (e.g. https://concrete-crack-detector.streamlit.app) — this is your deliverable #3.
-If the model file is too large for GitHub's normal limits, use Git LFS (git lfs track "*.keras") or host the model on Google Drive / Hugging Face and download it inside app.py at startup with gdown or huggingface_hub.
-
 ## Team
 See the notebook header for the full list of team members, registration numbers, and individual
 contributions.
@@ -88,7 +62,3 @@ contributions.
 ## Citation
 Ozgenel, C.F. (2019), "Concrete Crack Images for Classification", Mendeley Data, V2,
 doi: 10.17632/5y9wdsg2zt.2. Licensed under CC BY 4.0.
-
-
-from google.colab import files
-files.download('README.md')
