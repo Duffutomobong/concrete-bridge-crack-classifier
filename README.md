@@ -57,7 +57,8 @@ Deployed on **Streamlit Community Cloud**: `https://<your-app-name>.streamlit.ap
 
 ## Team
 See the notebook header for the full list of team members, registration numbers, and individual
-contributions.
+UDOM UDEME UDEME - 22/EG/AE/778
+GITHUB USERNAME:Udom-Udeme-22-778
 
 ## Citation
 Ozgenel, C.F. (2019), "Concrete Crack Images for Classification", Mendeley Data, V2,
